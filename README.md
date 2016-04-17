@@ -21,8 +21,8 @@ The project contains following two solutions:
 
 ## Using a basic Neural Network with following structure:
 
-  .- input layer with 2 Nodes.
-  .- one hidden layer with 3 nodes.
-  .- output layer with 1 node.
+  - input layer with 2 Nodes.
+  - one hidden layer with 3 nodes.
+  - output layer with 1 node.
   
 
