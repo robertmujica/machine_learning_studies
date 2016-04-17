@@ -1,7 +1,7 @@
 
 This repo contains a number of studies evaluating machine learning algorithms and libraries.
 
-# NeuralNetStudy Folder 
+# NeuralNetStudy 
 
 TODO
 
