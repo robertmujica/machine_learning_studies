@@ -1,0 +1,4 @@
+https://www.quandl.com/collections/markets/gold
+
+http://finance.yahoo.com/q/hp?a=&b=&c=&d=11&e=20&f=2015&g=d&s=GCZ15.CMX%2C+&ql=1
+
