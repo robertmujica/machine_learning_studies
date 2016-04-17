@@ -25,4 +25,4 @@ The project contains following two solutions:
   - one hidden layer with 3 nodes.
   - output layer with 1 node.
   
-
+It also uses the Resilient Propagation as lerning algorithm.
