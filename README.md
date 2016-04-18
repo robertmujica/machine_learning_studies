@@ -11,6 +11,7 @@ This folder contains a Java project using Weka API to implement a Decision tree 
 
 ## Train Data
 
+```
 '@relation data_train
 
 @attribute Placement {'  end_rack','  cd_spec','  std_rack'}
@@ -35,16 +36,17 @@ This folder contains a Java project using Weka API to implement a Decision tree 
 '  cd_spec',81,75,FALSE,yes
 '  std_rack',71,91,TRUE,yes
 '
+```
 
 ## Attributes
 
 Next, you have the attributes that are used within your data model. There are five attributes in this set that are the top line of raw CSV data that you received from the client.
 
-■ Placement: What type of stand the CD is displayed on: an end rack, special offer bucket, or a standard rack?
-■ Prominence: What percentage of the CDs on display are Lady Gaga CDs?
-■ Pricing: What percentage of the full price was the CD at the time of pur- chase? Very rarely is a CD sold at full price, unless it is an old, back catalog title.
-■ Eye Level: Was the product displayed at eye level position? The majority of sales will happen when a product is displayed at eye level.
-■ Customer Purchase: What was the outcome? Did the customer purchase?
+- Placement: What type of stand the CD is displayed on: an end rack, special offer bucket, or a standard rack?
+- Prominence: What percentage of the CDs on display are Lady Gaga CDs?
+- Pricing: What percentage of the full price was the CD at the time of pur- chase? Very rarely is a CD sold at full price, unless it is an old, back catalog title.
+- Eye Level: Was the product displayed at eye level position? The majority of sales will happen when a product is displayed at eye level.
+- Customer Purchase: What was the outcome? Did the customer purchase?
 
 # Stock_Predictor
 
