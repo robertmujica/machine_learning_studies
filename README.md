@@ -9,7 +9,7 @@ TODO
 
 This folder contains a Java project using Weka API to implement a Decision tree model to predict CD Sales depending on CD's placement in the Store.
 
-## Train Data
+## Training Data
 
 ```
 '@relation data_train
@@ -40,7 +40,7 @@ This folder contains a Java project using Weka API to implement a Decision tree 
 
 ## Attributes
 
-Next, you have the attributes that are used within your data model. There are five attributes in this set that are the top line of raw CSV data that you received from the client.
+There are five attributes in this set:
 
 - Placement: What type of stand the CD is displayed on: an end rack, special offer bucket, or a standard rack?
 - Prominence: What percentage of the CDs on display are Lady Gaga CDs?
