@@ -60,9 +60,9 @@ This folder contains a Java project implementing a XOR operation using encog lib
 
 The project contains following two solutions:
 
-### Using Support Vector Machine as suppervised learning method.
+### 1) Using Support Vector Machine as suppervised learning method.
 
-### Using a basic Neural Network with following structure:
+### 2) Using a basic Neural Network with following structure:
 
   - input layer with 2 Nodes.
   - one hidden layer with 3 nodes.
