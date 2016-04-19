@@ -7,7 +7,7 @@ TODO
 
 # Bayesian Network to predict surgical outcome
 
-BayesNet folder contains a Java project using JavaBayes library (https://github.com/jasebell/JavaBayesAPI) that predict surgery outcome given a patients information.
+BayesNet folder contains a Java project using JavaBayes library (https://github.com/jasebell/JavaBayesAPI) that predict surgery outcome given some (hypotetical) probabilities.
 
 ## Nodes used on the network:
 
@@ -48,7 +48,7 @@ Non Smoker    >2Y     0.58        0.42
 
 ## Testing the model
 
-After appliying observations the following are the overral results:
+After applying observations the following are the overral results:
 
 ```
 The probability of surgery being positive: 0.44823999999999997
@@ -56,6 +56,12 @@ The probability of surgery being positive and patient is younger than 55 : 0.503
 The probability of surgery being positive for a smoker, younger than 55: 0.09100000000000001
 The probability of surgery being positive for a smoker, younger than 55 with symptoms over 2 years: 0.01
 ```
+
+## Conclusions
+
+Bayesian Network is a very powerfull tool and as you can see on sample code it is very straightforward to create a network, creates the nodes and connect them, and then assign probabilities and conditional probabilities using 3rd party libraries like JavaBayes. It is also very simple to evaluate different probability scenarios by applying existing observations.
+
+It is also very important to do proper planning in paper and to have a domain expert to help with the initial values of the probabilities as it will make final prediction more accurate.
 
 # Decision Tree
 
