@@ -127,7 +127,7 @@ There are five attributes in this set:
 
 ## Conclusions
 
-Although decision trees is percived as simple solution, we cannot understimate its usages. Here we can see how easy to create a classifier based on C4.5 algorithm (https://en.wikipedia.org/wiki/C4.5_algorithm) to predict customer purchasing bahavior on products based on placement, pricing and prominence. They can also be used regardless of whether you have category or numerical data.
+Although decision trees is perceived as simple solution, we cannot understimate its usages. Here we can see how easy to create a classifier based on C4.5 algorithm (https://en.wikipedia.org/wiki/C4.5_algorithm) to predict customer purchasing bahavior on products based on placement, pricing and prominence. They can also be used regardless of whether you have category or numerical data.
 
 # Stock_Predictor
 
