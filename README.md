@@ -106,6 +106,29 @@ There are five attributes in this set:
 - Eye Level: Was the product displayed at eye level position? The majority of sales will happen when a product is displayed at eye level.
 - Customer Purchase: What was the outcome? Did the customer purchase?
 
+## Evaluation outcome
+
+```
+0.0 -> yes
+0.0 -> yes
+1.0 -> no
+1.0 -> no
+1.0 -> no
+0.0 -> yes
+0.0 -> yes
+0.0 -> yes
+0.0 -> yes
+1.0 -> no
+0.0 -> yes
+1.0 -> no
+0.0 -> yes
+0.0 -> yes
+```
+
+## Conclusions
+
+Although decision trees is percived as simple solution, we cannot understimate its usages. Here we can see how easy to create a classifier based on C4.5 algorithm (https://en.wikipedia.org/wiki/C4.5_algorithm) to predict customer purchasing bahavior on products based on placement, pricing and prominence. They can also be used regardless of whether you have category or numerical data.
+
 # Stock_Predictor
 
 This folder contains a Java project implementing a Stock price predictor specifically for GOLD Future commodity. This project uses Encog library.
