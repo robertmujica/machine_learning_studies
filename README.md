@@ -24,6 +24,39 @@ AGE(A)
 0.8   0.2
 ```
 
+```
+SMOKER(S)S
+Value of (A)  Smokes  Does Not Smoke
+<55           0.4     0.6
+>55           0.8     0.2
+```
+
+```
+DURATION OF SYMPTOMS D
+<2 Years      > 2 Years
+0.9           0.1
+```
+
+```
+SURGICAL OUTCOME SUCCESS SS
+(S)           (D)     Positive    Negative
+Smoker        <2Y     0.1         0.9
+Smoker        >2Y     0.01        0.99
+Non Smoker    <2Y     0.8         0.2
+Non Smoker    >2Y     0.58        0.42
+```
+
+## Testing the model
+
+After appliying observations the following are the overral results:
+
+```
+The probability of surgery being positive: 0.44823999999999997
+The probability of surgery being positive and patient is younger than 55 : 0.5032
+The probability of surgery being positive for a smoker, younger than 55: 0.09100000000000001
+The probability of surgery being positive for a smoker, younger than 55 with symptoms over 2 years: 0.01
+```
+
 # Decision Tree
 
 This folder contains a Java project using Weka API to implement a Decision tree model to predict CD Sales depending on CD's placement in the Store.
