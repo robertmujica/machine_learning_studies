@@ -25,20 +25,20 @@ AGE(A)
 ```
 
 ```
-SMOKER(S)S
+SMOKER(S)
 Value of (A)  Smokes  Does Not Smoke
 <55           0.4     0.6
 >55           0.8     0.2
 ```
 
 ```
-DURATION OF SYMPTOMS D
+DURATION OF SYMPTOMS (DD
 <2 Years      > 2 Years
 0.9           0.1
 ```
 
 ```
-SURGICAL OUTCOME SUCCESS SS
+SURGICAL OUTCOME SUCCESS (S)
 (S)           (D)     Positive    Negative
 Smoker        <2Y     0.1         0.9
 Smoker        >2Y     0.01        0.99
