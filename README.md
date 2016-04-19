@@ -5,6 +5,25 @@ This repo contains a number of studies evaluating machine learning algorithms an
 
 TODO
 
+# Bayesian Network to predict surgical outcome
+
+BayesNet folder contains a Java project using JavaBayes library (https://github.com/jasebell/JavaBayesAPI) that predict surgery outcome given a patients information.
+
+## Nodes used on the network:
+
+- Age of patient (A)
+- Does the patient smoke? (S)
+- Duration of symptoms (D)
+- Surgical outcome success (SS)
+
+## Nodes Probabilities
+
+```
+AGE(A)
+<55   >55
+0.8   0.2
+```
+
 # Decision Tree
 
 This folder contains a Java project using Weka API to implement a Decision tree model to predict CD Sales depending on CD's placement in the Store.
